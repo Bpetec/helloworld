@@ -1,14 +1,12 @@
 class HelloWorld {
-    firstName = ' ';
-    lastName: string;
 
-    constructor(firstNameSet: string, lastNameSet: string) {
-        this.firstName = firstNameSet;
-        this.lastName = lastNameSet;
+
+    constructor(public firstNameSet: string, public lastNameSet: string) {
+
     }
 
     sayHello() {
-        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+        console.log('Hello World!' + ' My name is ' + this.firstNameSet + ' ' + this.lastNameSet +'.');
     }
 }
 const myHelloClassInstance = new HelloWorld('Brandon', 'Peterson');
