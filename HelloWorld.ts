@@ -6,7 +6,7 @@ class HelloWorld {
     }
 
     sayHello() {
-        console.log('Hello World!' + ' My name is ' + this.firstNameSet + ' ' + this.lastNameSet);
+        console.log('Hello World!' + ' My name is ' + this.firstNameSet + ' ' + this.lastNameSet +'.');
     }
 }
 const myHelloClassInstance = new HelloWorld('Brandon', 'Peterson');
